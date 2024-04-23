@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         modelEntity.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         modelEntity.setAttribute('gltf-model', 'url(./assets/venus/scene.gltf)');
         modelEntity.setAttribute('scale', '0.1 0.1 0.1');
-        modelEntity.setAttribute('position', `0 -5 -20`);
+        modelEntity.setAttribute('position', `0 0 -5`);
 
         // Add the model entity to the scene
         scene.appendChild(modelEntity);
