@@ -1,0 +1,211 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        29.21721839904785,
+        6.176637649536133,
+        108.11886596679688
+      ],
+      "min": [
+        -24.523157119750977,
+        -44.171424865722656,
+        1.1769297122955322
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999871850013733,
+        0.9999802112579346,
+        0.9999904632568359
+      ],
+      "min": [
+        -0.9999900460243225,
+        -0.9999818801879883,
+        -0.9999632239341736
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 327558,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 61626,
+      "max": [
+        27.219684600830078,
+        6.238107681274414,
+        108.36050415039063
+      ],
+      "min": [
+        -28.721080780029297,
+        -43.39979553222656,
+        1.2724093198776245
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2312280,
+      "componentType": 5126,
+      "count": 61626,
+      "max": [
+        0.9999569654464722,
+        0.999991774559021,
+        0.9999224543571472
+      ],
+      "min": [
+        -0.9999900460243225,
+        -0.9999733567237854,
+        -0.999988853931427
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1310232,
+      "componentType": 5125,
+      "count": 299256,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Natural History Museum Vienna (https://sketchfab.com/NHMWien)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/venus-of-willendorf-nhmw-prae-44686-1293066347714d0ea6392504bd630902",
+      "title": "Venus of Willendorf (NHMW-Prae 44.686)"
+    },
+    "generator": "Sketchfab-13.41.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2507256,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3051792,
+      "byteOffset": 2507256,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5559048,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6795424696330938,
+          0.3613067797835095,
+          0.15896083506088038,
+          1.0
+        ],
+        "roughnessFactor": 0.5168490839392832
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.2576867938041685,
+        -0.966228485107422,
+        0.0,
+        0.0,
+        0.966228485107422,
+        -0.2576867938041685,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "NHMW-Prae-44686-Venus-of-Willendorf-4Printing.stl.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

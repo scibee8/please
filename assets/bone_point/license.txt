@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bone point fragment (NHMW-Prae 49.545)
+* source:	https://sketchfab.com/3d-models/bone-point-fragment-nhmw-prae-49545-f5e9b6f067f940529c14da0c209a60a2
+* author:	Natural History Museum Vienna (https://sketchfab.com/NHMWien)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bone point fragment (NHMW-Prae 49.545)" (https://sketchfab.com/3d-models/bone-point-fragment-nhmw-prae-49545-f5e9b6f067f940529c14da0c209a60a2) by Natural History Museum Vienna (https://sketchfab.com/NHMWien) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Venus of Willendorf (NHMW-Prae 44.686)
+* source:	https://sketchfab.com/3d-models/venus-of-willendorf-nhmw-prae-44686-1293066347714d0ea6392504bd630902
+* author:	Natural History Museum Vienna (https://sketchfab.com/NHMWien)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Venus of Willendorf (NHMW-Prae 44.686)" (https://sketchfab.com/3d-models/venus-of-willendorf-nhmw-prae-44686-1293066347714d0ea6392504bd630902) by Natural History Museum Vienna (https://sketchfab.com/NHMWien) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
