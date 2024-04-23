@@ -1,4 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function () {
+    var scene = document.querySelector('a-scene');
+
     // Function to check if the device is mobile
     function isMobileDevice() {
         console.log("Checking if the device is mobile...");
@@ -19,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to load GLTF model dynamically based on GPS coordinates
     function loadModel(latitude, longitude) {
         console.log(`Loading model at latitude: ${latitude}, longitude: ${longitude}`);
-        var scene = document.querySelector('a-scene');
         if (!scene) {
             console.error("Failed to find the <a-scene> element. Check your HTML.");
             return;
@@ -29,12 +31,38 @@ document.addEventListener('DOMContentLoaded', function () {
         var modelEntity = document.createElement('a-entity');
         modelEntity.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         modelEntity.setAttribute('gltf-model', 'url(./assets/venus/scene.gltf)');
-        modelEntity.setAttribute('scale', '0.1 0.1 0.1');
+        modelEntity.setAttribute('scale', getModelPosition());
         modelEntity.setAttribute('position', getModelPosition());
 
         // Add the model entity to the scene
         scene.appendChild(modelEntity);
         console.log("Model entity added to the scene.");
+
+        // Start dynamic testing of scales and positions
+        startDynamicTesting(modelEntity);
+    }
+
+    // Function to start dynamic testing of scales and positions
+    function startDynamicTesting(modelEntity) {
+        var scales = [
+            [0.05, 0.05, 0.05], [0.1, 0.1, 0.1], [0.2, 0.2, 0.2],
+            [0.5, 0.5, 0.5], [1, 1, 1], [1.5, 1.5, 1.5], [2, 2, 2], [3, 3, 3]
+        ];
+        var positions = [
+            [0, -10, -20], [0, -5, -15], [0, 0, -10], [0, 5, -5],
+            [0, 1, 0], [0, 2, 5], [0, 3, 10], [0, 4, 15],
+            [0, -1, 20], [0, -2, 25], [0, -3, 30], [0, -4, 35],
+            [0, -5, 40], [0, -6, 45], [0, -7, 50]
+        ];
+
+        var currentIndex = 0;
+
+        setInterval(() => {
+            modelEntity.setAttribute('scale', scales[currentIndex % scales.length].join(' '));
+            modelEntity.setAttribute('position', positions[currentIndex % positions.length].join(' '));
+            console.log(`Model updated with scale: ${scales[currentIndex % scales.length].join(' ')} and position: ${positions[currentIndex % positions.length].join(' ')}`);
+            currentIndex++;
+        }, 5000);
     }
 
     // Function to get current GPS coordinates
@@ -51,4 +79,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Call the function to load the model based on current GPS coordinates
     getCurrentLocation();
 });
-
